@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         
         ar: {
-            'title': 'جليتي إلياس | باحث في الذكاء الاصطناعي',
+            'title': 'جلطي إلياس | باحث في الذكاء الاصطناعي',
             'title_line': 'مرشح دكتوراه في الذكاء الاصطناعي وتعلم الآلة',
             'nav_home': 'الرئيسية',
             'nav_projects': 'المشاريع',
@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function() {
             'btn_see_projects': 'رؤية المشاريع',
             'btn_save_pdf': 'حفظ كـ PDF',
             'section_profile': 'الملف الشخصي',
-            'profile_text': 'خريج علوم حاسوب يبلغ من العمر 24 عامًا شديد التحفيز، حاصل على درجة الماجستير في تخصص الذكاء الاصطناعي لإنترنت الأشياء. أظهر تميزًا من خلال درجة أطروحة شبه مثالية (19.5/20) وأعمال مشاريع حائزة على جوائز. يمتلك مهارات عملية قوية في الذكاء الاصطناعي/تعلم الآلة، أنظمة إنترنت الأشياء، الواقع الافتراضي/المعزز، وتطوير البرمجيات، مع قدرة مثبتة على إجراء أبحاث مبتكرة تهدف إلى حل التحديات الواقعية. يساهم في أبحاث الدكتوراه المتقدمة في الذكاء الاصطناعي وتعلم الآلة.',
+            'profile_text': 'خريج علوم حاسوب ابلغ من العمر 24 عامًا شديد التحفيز، حاصل على درجة الماجستير في تخصص الذكاء الاصطناعي لإنترنت الأشياء. أظهر تميزًا من خلال درجة أطروحة شبه مثالية (19.5/20) وأعمال مشاريع حائزة على جوائز. يمتلك مهارات عملية قوية في الذكاء الاصطناعي/تعلم الآلة، أنظمة إنترنت الأشياء، الواقع الافتراضي/المعزز، وتطوير البرمجيات، مع قدرة مثبتة على إجراء أبحاث مبتكرة تهدف إلى حل التحديات الواقعية. يساهم في أبحاث الدكتوراه المتقدمة في الذكاء الاصطناعي وتعلم الآلة.',
             'section_education': 'التعليم',
             'edu_masters': 'ماجستير في علوم الحاسوب – الذكاء الاصطناعي لإنترنت الأشياء',
             'edu_bachelor': 'بكالوريوس في أنظمة الحاسوب',
@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', function() {
             'interest_2': 'الذكاء الاصطناعي الحافي وأنظمة إنترنت الأشياء الموزعة',
             'interest_3': 'الذكاء الاصطناعي للتكنولوجيا المساعدة',
             'interest_4': 'الحوسبة المستدامة والذكاء الاصطناعي البيئي',
-            'footer_copyright': '© 2024 جليتي إلياس. جميع الحقوق محفوظة.',
+            'footer_copyright': '© 2026 جليتي إلياس. جميع الحقوق محفوظة.',
             'footer_tagline': 'باحث في الذكاء الاصطناعي | مرشح دكتوراه في الذكاء الاصطناعي وتعلم الآلة'
         },
         
@@ -209,7 +209,7 @@ document.addEventListener('DOMContentLoaded', function() {
             'interest_2': 'Edge AI и распределенные IoT системы',
             'interest_3': 'ИИ для вспомогательных технологий',
             'interest_4': 'Устойчивые вычисления и экологический ИИ',
-            'footer_copyright': '© 2024 Джельти Ильес. Все права защищены.',
+            'footer_copyright': '© 2026 Джельти Ильес. Все права защищены.',
             'footer_tagline': 'Исследователь ИИ | Кандидат в докторантуру по ИИ и Машинному обучению'
         },
         
@@ -271,7 +271,7 @@ document.addEventListener('DOMContentLoaded', function() {
             'interest_2': 'Edge AI et Systèmes IoT Distribués',
             'interest_3': 'IA pour les Technologies d\'Assistance',
             'interest_4': 'Informatique Durable et IA Environnementale',
-            'footer_copyright': '© 2024 DJELTI ILYES. Tous droits réservés.',
+            'footer_copyright': '© 2026 DJELTI ILYES. Tous droits réservés.',
             'footer_tagline': 'Chercheur en IA | Candidat au Doctorat en IA et Apprentissage Automatique'
         }
     };
