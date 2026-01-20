@@ -2,6 +2,6 @@
 # DJELTI ILYES - Academic Portfolio
 
 ## 🌐 Live Website
-Visit: `https://djelti-ilyes.github.io` (replace with your actual username)
+Visit: `https://DjeltiIlyes.github.io` 
 
 ## 📁 Project Structure
