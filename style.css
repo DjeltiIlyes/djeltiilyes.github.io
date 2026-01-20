@@ -1,3 +1,4 @@
+/* style.css - COMPLETE VERSION */
 :root {
     --primary: #2c3e50;
     --secondary: #3498db;
@@ -20,6 +21,7 @@ body {
     line-height: 1.6;
     color: #333;
     background: #f5f7fa;
+    min-height: 100vh;
 }
 
 .container {
@@ -34,6 +36,10 @@ body {
     top: 20px;
     right: 20px;
     z-index: 1001;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: var(--shadow);
 }
 
 .language-selector select {
@@ -43,7 +49,7 @@ body {
     background: white;
     font-weight: 500;
     cursor: pointer;
-    box-shadow: var(--shadow);
+    outline: none;
 }
 
 /* Navigation */
@@ -99,9 +105,10 @@ body {
     border: none;
     font-size: 1.5rem;
     cursor: pointer;
+    color: var(--primary);
 }
 
-/* Hero Section */
+/* Hero Section (Homepage) */
 .hero {
     background: linear-gradient(135deg, var(--primary) 0%, #1a5276 100%);
     color: white;
@@ -212,7 +219,7 @@ body {
     border: 5px solid rgba(255,255,255,0.2);
 }
 
-/* Resume Card */
+/* Resume Card (Homepage) */
 .resume-card {
     background: white;
     border-radius: 15px;
@@ -275,7 +282,7 @@ body {
     color: #2c3e50;
 }
 
-/* Project Items */
+/* Project Items (Homepage) */
 .project-item {
     margin-bottom: 2rem;
     padding: 1.5rem;
@@ -428,6 +435,242 @@ body {
     line-height: 1.5;
 }
 
+/* Page Header Styles (All Pages) */
+.page-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 3rem 1rem;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    color: white;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.page-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.page-header p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Projects Page Styles */
+.projects-container {
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+
+.project-card {
+    background: white;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: var(--shadow);
+    border: 1px solid #e9ecef;
+}
+
+.project-card.featured {
+    border-left: 5px solid var(--accent);
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.project-badge, .project-score, .project-award {
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.project-badge {
+    background: var(--light);
+    color: var(--primary);
+}
+
+.project-score {
+    background: #d4edda;
+    color: #155724;
+}
+
+.project-award {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1.5rem 0;
+}
+
+.tech-tag {
+    padding: 0.3rem 0.8rem;
+    background: var(--light);
+    border-radius: 4px;
+    font-size: 0.85rem;
+    color: var(--primary);
+}
+
+.project-description h4 {
+    margin: 1.5rem 0 0.8rem 0;
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.mini-projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.mini-project {
+    padding: 1.5rem;
+    background: var(--light);
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+}
+
+.mini-project h4 {
+    color: var(--secondary);
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Research Page Styles */
+.research-container {
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+
+.research-section {
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+}
+
+.research-section h2 {
+    color: var(--primary);
+    margin-bottom: 1.5rem;
+    font-size: 1.75rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.timeline {
+    border-left: 3px solid var(--secondary);
+    padding-left: 2rem;
+    margin: 2rem 0;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: white;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+}
+
+.timeline-item:before {
+    content: '';
+    position: absolute;
+    left: -2.5rem;
+    top: 2rem;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: var(--secondary);
+}
+
+/* Contact Page Styles */
+.contact-container {
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+.contact-methods {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.contact-card {
+    text-align: center;
+    padding: 2rem;
+    border: 2px solid var(--light);
+    border-radius: 10px;
+    transition: var(--transition);
+}
+
+.contact-card:hover {
+    border-color: var(--secondary);
+    transform: translateY(-5px);
+}
+
+.contact-icon {
+    font-size: 2.5rem;
+    color: var(--secondary);
+    margin-bottom: 1rem;
+}
+
+.contact-form-container {
+    margin-top: 3rem;
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+}
+
+.contact-form-container h2 {
+    color: var(--primary);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: var(--dark);
+}
+
+.form-input, .form-textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.form-textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
 /* Footer */
 .footer {
     background: var(--dark);
@@ -529,6 +772,24 @@ body {
     
     .hero-buttons {
         justify-content: center;
+    }
+    
+    .contact-methods {
+        grid-template-columns: 1fr;
+    }
+    
+    .mini-projects {
+        grid-template-columns: 1fr;
+    }
+    
+    .page-header h1 {
+        font-size: 2rem;
+    }
+    
+    .project-card,
+    .contact-form-container,
+    .research-section {
+        padding: 1.5rem;
     }
 }
 
