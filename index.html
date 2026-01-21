@@ -1182,12 +1182,12 @@
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container nav-container">
-            <a href="index.html" class="logo" id="name">DJELTI ILYES</a>
+            <a href="#home" class="logo" id="name">DJELTI ILYES</a>
             <ul class="nav-menu">
-                <li><a href="index.html" class="active" id="nav_home">Home</a></li>
-                <li><a href="projects.html" id="nav_projects">Projects</a></li>
-                <li><a href="research.html" id="nav_research">Research</a></li>
-                <li><a href="contact.html" id="nav_contact">Contact</a></li>
+                <li><a href="#home" class="active" id="nav_home">Home</a></li>
+                <li><a href="#resume" id="nav_projects">Resume</a></li>
+                <li><a href="#desertcool" id="nav_research">Projects</a></li>
+                <li><a href="#contact" id="nav_contact">Contact</a></li>
             </ul>
             <button class="menu-toggle">
                 <i class="fas fa-bars"></i>
@@ -1196,7 +1196,7 @@
     </nav>
 
     <!-- Hero Section -->
-    <header class="hero">
+    <header class="hero" id="home">
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
@@ -1387,6 +1387,17 @@
                     </div>
                 </div>
             </section>
+
+            <!-- Contact Section -->
+            <section class="resume-section" id="contact">
+                <h2><i class="fas fa-envelope"></i> <span id="section_contact">Contact</span></h2>
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> <strong id="contact_email">Email:</strong> codin.fsei@univ-mosta.dz</p>
+                    <p><i class="fas fa-map-marker-alt"></i> <strong id="contact_location">Location:</strong> FSEI, University of Mostaganem, Algeria</p>
+                    <p><i class="fas fa-phone"></i> <strong id="contact_phone">Phone:</strong> +213 (0) XX XX XX XX</p>
+                    <p><i class="fas fa-globe"></i> <strong id="contact_website">Website:</strong> <a href="#home" style="color: var(--accent-teal);">djelitilyes.com</a></p>
+                </div>
+            </section>
         </div>
     </main>
 
@@ -1397,10 +1408,24 @@
                 <p id="footer_copyright">© 2026 DJELTI ILYES. All rights reserved.</p>
                 <p id="footer_tagline">AI Researcher | Doctoral Candidate in Artificial Intelligence & Machine Learning</p>
                 <div class="footer-links">
-                    <a href="index.html" id="footer_nav_home">Home</a> |
-                    <a href="projects.html" id="footer_nav_projects">Projects</a> |
-                    <a href="research.html" id="footer_nav_research">Research</a> |
-                    <a href="contact.html" id="footer_nav_contact">Contact</a>
+                    <a href="#home" id="footer_nav_home">Home</a> |
+                    <a href="#resume" id="footer_nav_projects">Resume</a> |
+                    <a href="#desertcool" id="footer_nav_research">Projects</a> |
+                    <a href="#contact" id="footer_nav_contact">Contact</a>
+                </div>
+                <div class="social-icons" style="margin-top: 20px;">
+                    <a href="https://instagram.com/codin_club_scientifique" target="_blank" style="color: white; margin: 0 10px; font-size: 1.5rem;">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" style="color: white; margin: 0 10px; font-size: 1.5rem;">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com" target="_blank" style="color: white; margin: 0 10px; font-size: 1.5rem;">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" style="color: white; margin: 0 10px; font-size: 1.5rem;">
+                        <i class="fab fa-twitter"></i>
+                    </a>
                 </div>
             </div>
         </div>
@@ -1416,8 +1441,8 @@
                 name: "DJELTI ILYES",
                 name2: "DJELTI ILYES",
                 nav_home: "Home",
-                nav_projects: "Projects",
-                nav_research: "Research",
+                nav_projects: "Resume",
+                nav_research: "Projects",
                 nav_contact: "Contact",
                 
                 // Hero Section
@@ -1436,6 +1461,7 @@
                 section_achievements: "Achievements",
                 section_languages: "Languages",
                 section_interests: "Research Interests",
+                section_contact: "Contact",
                 
                 // Profile
                 profile_text: "A highly motivated 24-year-old Computer Science graduate with a Master's degree specializing in Artificial Intelligence for the Internet of Things. Demonstrated excellence through a near-perfect thesis score (19.5/20) and award-winning project work. Possesses strong practical skills in AI/ML, IoT systems, VR/AR, and software development, with a proven ability to conduct innovative research aimed at solving real-world challenges. Seeking to contribute to advanced doctoral research in Artificial Intelligence and Machine Learning.",
@@ -1492,12 +1518,18 @@
                 interest_3: "AI for Assistive Technologies",
                 interest_4: "Sustainable Computing & Environmental AI",
                 
+                // Contact
+                contact_email: "Email:",
+                contact_location: "Location:",
+                contact_phone: "Phone:",
+                contact_website: "Website:",
+                
                 // Footer
                 footer_copyright: "© 2026 DJELTI ILYES. All rights reserved.",
                 footer_tagline: "AI Researcher | Doctoral Candidate in Artificial Intelligence & Machine Learning",
                 footer_nav_home: "Home",
-                footer_nav_projects: "Projects",
-                footer_nav_research: "Research",
+                footer_nav_projects: "Resume",
+                footer_nav_research: "Projects",
                 footer_nav_contact: "Contact"
             },
             
@@ -1506,8 +1538,8 @@
                 name: "جلطي إلياس",
                 name2: "جلطي إلياس",
                 nav_home: "الرئيسية",
-                nav_projects: "المشاريع",
-                nav_research: "البحث",
+                nav_projects: "السيرة الذاتية",
+                nav_research: "المشاريع",
                 nav_contact: "اتصل",
                 
                 // Hero Section
@@ -1526,6 +1558,7 @@
                 section_achievements: "الإنجازات",
                 section_languages: "اللغات",
                 section_interests: "مجالات الاهتمام البحثية",
+                section_contact: "اتصال",
                 
                 // Profile
                 profile_text: "خريج علوم حاسوب متحمس للغاية يبلغ من العمر 24 عامًا وحاصل على درجة الماجستير في الذكاء الاصطناعي لإنترنت الأشياء. أظهر تفوقًا من خلال درجة أطروحة شبه مثالية (19.5/20) وأعمال مشاريع حاصلة على جوائز. يمتلك مهارات عملية قوية في الذكاء الاصطناعي/التعلم الآلي، وأنظمة إنترنت الأشياء، والواقع الافتراضي/المعزز، وتطوير البرمجيات، مع قدرة مثبتة على إجراء بحث ابتكاري يهدف إلى حل التحديات الواقعية. يسعى للمساهمة في بحث الدكتوراه المتقدم في الذكاء الاصطناعي والتعلم الآلي.",
@@ -1582,45 +1615,19 @@
                 interest_3: "الذكاء الاصطناعي للتقنيات المساعدة",
                 interest_4: "الحوسبة المستدامة والذكاء الاصطناعي البيئي",
                 
+                // Contact
+                contact_email: "البريد الإلكتروني:",
+                contact_location: "الموقع:",
+                contact_phone: "الهاتف:",
+                contact_website: "الموقع الإلكتروني:",
+                
                 // Footer
                 footer_copyright: "© 2026 جلطي إلياس. جميع الحقوق محفوظة.",
                 footer_tagline: "باحث في الذكاء الاصطناعي | مرشح دكتوراه في الذكاء الاصطناعي والتعلم الآلي",
                 footer_nav_home: "الرئيسية",
-                footer_nav_projects: "المشاريع",
-                footer_nav_research: "البحث",
+                footer_nav_projects: "السيرة الذاتية",
+                footer_nav_research: "المشاريع",
                 footer_nav_contact: "اتصل"
-            },
-            
-            fr: {
-                // French translations (simplified for example)
-                name: "DJELTI ILYES",
-                name2: "DJELTI ILYES",
-                nav_home: "Accueil",
-                nav_projects: "Projets",
-                nav_research: "Recherche",
-                nav_contact: "Contact",
-                title_line: "Candidat au Doctorat en IA & Apprentissage Automatique",
-                age: "Âge: 24 ans",
-                tagline: "Spécialisé en IA pour l'Internet des Objets avec un accent sur les technologies d'assistance et l'informatique durable",
-                btn_view_resume: "Voir le CV",
-                btn_featured_project: "Projet Vedette",
-                btn_save_pdf: "Télécharger PDF"
-            },
-            
-            ru: {
-                // Russian translations (simplified for example)
-                name: "Джелти Ильес",
-                name2: "Джелти Ильес",
-                nav_home: "Главная",
-                nav_projects: "Проекты",
-                nav_research: "Исследования",
-                nav_contact: "Контакты",
-                title_line: "Кандидат наук в области ИИ и машинного обучения",
-                age: "Возраст: 24 года",
-                tagline: "Специализация: ИИ для Интернета вещей с акцентом на вспомогательные технологии и устойчивые вычисления",
-                btn_view_resume: "Посмотреть резюме",
-                btn_featured_project: "Избранный проект",
-                btn_save_pdf: "Скачать PDF"
             }
         };
 
@@ -1650,33 +1657,11 @@
                             // For other elements, set text content
                             element.textContent = value;
                         }
-                        console.log("Updated element with id:", key);
-                    } else {
-                        // Try to find element by class or other means if not found by id
-                        console.warn("Element not found for id:", key);
                     }
                 } catch (error) {
                     console.error("Error updating element", key, ":", error);
                 }
             }
-            
-            // Also check for any elements that might have been missed
-            const allIds = [
-                'name', 'name2', 'nav_home', 'nav_projects', 'nav_research', 'nav_contact',
-                'title_line', 'age', 'tagline', 'btn_view_resume', 'btn_featured_project', 'btn_save_pdf',
-                'section_profile', 'section_education', 'section_research', 'section_skills',
-                'section_achievements', 'section_languages', 'section_interests',
-                'profile_text', 'edu_masters', 'edu_bachelor', 'grade', 'grade2', 'excellent',
-                'very_good', 'thesis', 'thesis_title', 'project_lunav_title', 'project_lunav_1',
-                'project_lunav_2', 'project_lunav_3', 'project_desertcool_title', 'project_desertcool_1',
-                'project_desertcool_2', 'project_desertcool_3', 'skill_ai', 'skill_ai_list',
-                'skill_iot', 'skill_iot_list', 'skill_programming', 'skill_programming_list',
-                'skill_tools', 'skill_tools_list', 'achievement_1', 'achievement_2',
-                'achievement_3', 'achievement_4', 'achievement_5', 'lang_arabic', 'lang_english',
-                'lang_french', 'lang_native', 'lang_fluent', 'lang_fluent2', 'interest_1',
-                'interest_2', 'interest_3', 'interest_4', 'footer_copyright', 'footer_tagline',
-                'footer_nav_home', 'footer_nav_projects', 'footer_nav_research', 'footer_nav_contact'
-            ];
             
             // Update page title
             document.title = langData['name'] + " | AI Researcher";
@@ -1981,7 +1966,6 @@
             // Initialize translation system FIRST
             initTranslation();
             
-            // Initialize other systems
             console.log("Page fully initialized");
         });
 
